@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#DF1F11</color>
+
+    <color name="button">#737B7B</color>
+    <color name="logo">#13A1A3</color>
+    <color name="background">#FEFBF6</color>
+    <color name="card1">#9B4444</color>
+    <color name="card2">#7F27FF</color>
+    <color name="card3">#211C6A</color>
+    <color name="card4">#944E63</color>
+    <color name="card5">#40A2E3</color>
+    <color name="transparant">#00000000</color>
+    <color name="banner1">#88AB8E</color>
+    <color name="banner2">#EEE7DA</color>
+    <color name="colorLink">#1e0fbe</color>
+
+
+</resources>

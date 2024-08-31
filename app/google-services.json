@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045177772608",
+    "project_id": "catdermdetect",
+    "storage_bucket": "catdermdetect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045177772608:android:0278e457e0d6f50b588da5",
+        "android_client_info": {
+          "package_name": "com.example.catdermdetect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vmOepf5eKknPOkgc8LyAkq1Zn-WNHMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

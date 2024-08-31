@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:background="@drawable/body"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:transitionName="icon_image"
+            android:src="@drawable/skinnycats__1__removebg_preview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/erica_one"
+            android:text="Hellow Cat Buddies"
+            android:transitionName="transitionLogo"
+            android:textSize="30sp"
+            android:textColor="#3A4D39"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_black_italic"
+        android:text="Come and Join with us for your Cat"
+        android:transitionName="transitionSlogan"
+        android:textSize="20sp"
+        android:textColor="#3A4D39"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please fill the Form Registration"
+            android:transitionName="transitionInfo"
+            android:textSize="14sp"
+            android:textColor="#3A4D39"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:hint="First Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:hint="Last Name"
+            android:transitionName="transitionUsername"
+            app:counterEnabled="true"
+            app:counterMaxLength="15">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:hint="Email"
+            android:transitionName="transitionUsername">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/indo"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="+62"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:hint="Phone / Whats'app"
+                android:transitionName="transitionUsername">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/noPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="phone"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:hint="Password"
+            android:transitionName="transitionPassword"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:hint="Re - Password"
+            android:transitionName="transitionPassword"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/repassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:transitionName="transitionBtnSignUp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAlready"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#00000000"
+        android:text="Already Sign Up ? Go Login"
+        android:transitionName="transitionBtnLogin"
+        android:fontFamily="@font/roboto_black"
+        android:textColor="@color/button"/>
+
+</LinearLayout>

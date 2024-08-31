@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">CatDermDetect</string>
+
+    <string name="hello">Hai Cat Buddy</string>
+    <string name="textWelcome"></string>
+    <string name="card1">Penyakit</string>
+    <string name="card2">Obat Vitamin</string>
+    <string name="card3">Riwayat Deteksi</string>
+    <string name="card4">Edukasi</string>
+
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+
+    <string name="item_1">Makanan / Minuman Yang tidak diperbolehkan oleh kucing</string>
+    <string name="detail_1">
+   \nMakanan / Minuman yang tidak diperbolehkan untuk kucing\n
+    1) Produk susu sapi  -> menyebabkan diare\n
+    2) Alkohol           -> menyebabkan kematian\n
+    3) Anggur dan kismis -> menyebabkan gagal ginjal\n
+    4) Cokelat           -> menyebabkan masalah serius hingga gagal jantung\n
+    5) Kafein            -> Menyebabkan Hiperaktif hingga kejang\n
+    6) Bawang putih dan bombay -> mengandung Tiosulfat(senyawa kimia) meskipun aman untuk manusia dalam dosis yang tepat, tiosulfat dapat sangat beracun bagi kucing.
+    Ketika kucing terpapar tiosulfat, itu bisa menyebabkan keracunan yang parah bahkan dalam jumlah yang kecil.\n
+    7) Hati -> menyebabkan kucing menderita kelebihan vitamin A\n
+    8) Telur Mentah -> mengandung avidin (menghalangi penyerapan biotin, Vitamin B)\n
+    9) Tulang -> bisa merubak mulut dan merusak pencernaan\n
+    10) Daging mentah -> Mengandung banyak bakteri\n
+
+    </string>
+    <string name="item_2">Tips menjaga dan merawat kucing</string>
+    <string name="detail_2">
+        \n1. Berikan makanan yang tepat dan benar\n
+        2. Selalu sediakan air minum yang bersih\n
+        3. Sikat atau sisir bulu kucing secara teratur\n
+        4. Siapkan temapt tidur yang nyaman untuk kucing\n
+        5. Pastikan untuk menyiapkan litter box\n
+        6. Siapkan tempat untuk kucing mengasah kukunya (mencakar-cakar)\n
+        7. Bersihkan gigi kucing\n
+        8. Lakukan kunjungan dokter hewan secara rutin\n
+    </string>
+
+    <string name="item_3">Makanan manusia yang aman untuk kucing</string>
+    <string name="detail_3">
+        \n1. Madu\n
+        2. Bayam\n
+        3. Selada\n
+        4. Roti\n
+        5. Nasi\n
+        6. Telur\n
+        7. Bean\n
+    </string>
+
+    <string name="item_4">Tips untuk menjinakan kucing (How To pet a Cat)</string>
+    <string name="detail_4">
+        \n- Mengerti bhasa tubuh atau gerakan kucing\n
+        - Mempelajari hal yang harus dihindari\n
+        - Berikan mereka ruang pribadi\n
+        - Berfokus pada area yang memiliki aroma\n
+    </string>
+
+    <string name="item_5">Tips Memandikan kucing</string>
+    <string name="detail_5">
+        \n1) Sisir dan potong kuku\n
+        Karena jika menyikat atau menyisir bulunya setelah mandi terasa menyakitkan bagi kucing\n
+        2) Mulai Dengan Santai\n
+        Jika energi kucing masih banyak, ajak bermain terlebih dahulu hingga mereka cukup lelah dan menjadi tenang\n
+        3) Persiapan\n
+        Siapkan terlebih dahulu shampo atau sabun mandi khusus kucing\n
+        4) Gunakan produk yang tepat\n
+        Gunakan Shampo atau sabun khusus untuk kucing. Produk untuk manusia akan membuat kulit kucing iritasi atau kering\n
+        5) Jangan memaksa kucing\n
+        Jangan memaksa kucing untuk berdiri di air atau menuangkan air ke wajah atau telinganya. Untuk membuat kucing tenang alihkan perhatiannya ke benda lain\n
+        6) Cuci dan bilas\n
+        Saat mencuci dan membilas pastikan busa mengalir searah dengan tumbuhnya bulu mereka. Untuk membersihkan wajahnya gunakan handuk kecil basah\n
+        7) Waktu pengeringan\n
+        Gunakan handuk dan hair dryer. Pastikan kucing benar benar kering\n
+        8) Beri hadiah\n
+        Berikan cemilan sebagai imbalan setelah mandi\n
+    </string>
+
+    <string name="item_6">Cara menghentikan kucing yang mengeong dengan keras)</string>
+    <string name="detail_6">
+        \n1. Untuk tangisan lapar -> Tunggu sampai mereka tenang lalu beri mereka makan\n
+        2. Untuk tangisan malam hari -> Ajak kucing untuk berolahraga atau bermain lebih banyak sepanjang hari\n
+        3. Untuk tangisan sakit atau sedih -> Bawalah ke dokter hewan\n
+        4. Untuktangisan kesepian -> Sediakan lebih banyak tempat tidur yang nyaman, rumah, dan pepohonan\n
+        5. Untuk tangisan keras atau bingung -> Tanyakan pada dokter hewan tentang ketulian, dan disfungsi kognitif pada kucing\n
+    </string>
+
+    <string name="item_7">Cara memberi makan kucing Kitten</string>
+    <string name="detail_7">
+        \nMinggu ke-1 sampai ke-3\n
+        -> Susu Formula\n
+        Minggu ke-4 sampai ke-5\n
+        ->Makanan kucing cair dan susu formula \n
+        Minggu ke-6\n
+        -> Bubur, susu formula, makanan kitten kering dan kalengan, dan cair\n
+        Minggu ke-7 sampai ke-8\n
+        -> Makanan kitten normal dan susu formula\n
+        Minggu ke-9 ++\n
+        -> Makanan kitten normal\n
+    </string>
+
+    <string name="lorem">
+        <b>ipsum dolor sit amet</b>, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam sit amet felis et lacus dictum auctor a sit amet risus. Integer non nisi nec mi malesuada feugiat. Fusce eu urna at metus euismod convallis. Proin sit amet augue nec arcu varius commodo. Morbi in arcu at odio ultricies porttitor id vel sem. Suspendisse nec ullamcorper ligula. Aliquam erat volutpat. Curabitur nec pharetra arcu. Nullam a est nec arcu vulputate posuere.
+
+        Praesent ut sem id mauris placerat dictum sed vel justo.
+    </string>
+
+</resources>
